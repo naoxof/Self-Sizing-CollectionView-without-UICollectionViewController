@@ -12,6 +12,7 @@
 		182AF27322D8C73400CF1429 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182AF27122D8C73400CF1429 /* Main.storyboard */; };
 		182AF27522D8C73500CF1429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182AF27422D8C73500CF1429 /* Assets.xcassets */; };
 		182AF27822D8C73500CF1429 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182AF27622D8C73500CF1429 /* LaunchScreen.storyboard */; };
+		182AF28022D8C76400CF1429 /* ssCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AF27F22D8C76400CF1429 /* ssCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		182AF27422D8C73500CF1429 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182AF27722D8C73500CF1429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		182AF27922D8C73500CF1429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182AF27F22D8C76400CF1429 /* ssCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ssCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				182AF26D22D8C73400CF1429 /* AppDelegate.swift */,
 				182AF26F22D8C73400CF1429 /* ViewController.swift */,
 				182AF27122D8C73400CF1429 /* Main.storyboard */,
+				182AF27F22D8C76400CF1429 /* ssCollectionViewCell.swift */,
 				182AF27422D8C73500CF1429 /* Assets.xcassets */,
 				182AF27622D8C73500CF1429 /* LaunchScreen.storyboard */,
 				182AF27922D8C73500CF1429 /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				182AF27022D8C73400CF1429 /* ViewController.swift in Sources */,
+				182AF28022D8C76400CF1429 /* ssCollectionViewCell.swift in Sources */,
 				182AF26E22D8C73400CF1429 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

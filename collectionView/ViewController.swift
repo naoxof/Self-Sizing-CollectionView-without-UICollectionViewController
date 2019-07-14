@@ -15,13 +15,19 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        flowLayout.estimatedItemSize = CGSize(width: collection.frame.width, height: 10)
+        flowLayout.estimatedItemSize = CGSize(
+            width: collection.frame.width
+                - flowLayout.sectionInset.left
+                - flowLayout.sectionInset.right
+                - collection.contentInset.left
+                - collection.contentInset.right
+            , height: 10)
     }
 }
 
 extension ViewController:UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+        return 2
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {

@@ -17,10 +17,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         flowLayout.estimatedItemSize = CGSize(
             width: collection.frame.width
-                - flowLayout.sectionInset.left
-                - flowLayout.sectionInset.right
-                - collection.contentInset.left
-                - collection.contentInset.right
+//                - flowLayout.sectionInset.left
+//                - flowLayout.sectionInset.right
+//                - collection.contentInset.left
+//                - collection.contentInset.right
             , height: 10)
     }
 }

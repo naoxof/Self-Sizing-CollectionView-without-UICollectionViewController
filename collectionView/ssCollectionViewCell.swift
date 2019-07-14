@@ -10,8 +10,8 @@ import UIKit
 
 class ssCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var textView: UITextView!
-
-    override func preferredLayoutAttributesFitting(_ layoutAttributes: UICollectionViewLayoutAttributes) -> UICollectionViewLayoutAttributes {
+    
+        override func preferredLayoutAttributesFitting(_ layoutAttributes: UICollectionViewLayoutAttributes) -> UICollectionViewLayoutAttributes {
         setNeedsLayout()
         layoutIfNeeded()
         let size = contentView.systemLayoutSizeFitting(layoutAttributes.size)
@@ -19,5 +19,9 @@ class ssCollectionViewCell: UICollectionViewCell {
         frame.size.height = ceil(size.height)
         layoutAttributes.frame = frame
         return layoutAttributes
+    }
+    
+    func textViewDidChange(textView: UITextView) {
+        
     }
 }
